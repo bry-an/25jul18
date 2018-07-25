@@ -1,0 +1,2 @@
+Clearfix makes it so that the parent element knows the size of the child element. 
+	When you see a floated element not staying in its parent element.
