@@ -1,5 +1,5 @@
 Clearfix makes it so that the parent element knows the size of the child element. 
-	When you see a floated element not staying in its parent element.
+	Use when you see a floated element not staying in its parent element.
 
 Positioning
 	Best to generally use static positioning (and not floats)
@@ -13,4 +13,3 @@ Positioning
 		e.g. z-index: 1 <-- 1 is static order, lowest. 2 would go on top
 	Hiding: display: none; // probably use with JS
 		Takes away the space that the element uses, as opposed to visibility: hidden
-
