@@ -1,2 +1,16 @@
 Clearfix makes it so that the parent element knows the size of the child element. 
 	When you see a floated element not staying in its parent element.
+
+Positioning
+	Best to generally use static positioning (and not floats)
+	Default: static
+	Relative: use left: 10px, etc to change
+		left: 40px would push from *left* (i.e. move right)
+	Absolute: positioned relative to nearest non-statically positioned ancestor
+	Fixed: Orients relative to browser window (things that follow with while you scroll)
+	Z-index: allows you to layer elements on top of each other when they're positioned
+		Only matters with non-static images
+		e.g. z-index: 1 <-- 1 is static order, lowest. 2 would go on top
+	Hiding: display: none; // probably use with JS
+		Takes away the space that the element uses, as opposed to visibility: hidden
+
